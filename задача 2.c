@@ -11,9 +11,7 @@ int main() {
     num= num % 2; 
     bool honest = (num==0); 
     
-    printf("", result)
-    
-    printf("%s\n",result); 
+    printf("", result);
     
     return 0;
 }
