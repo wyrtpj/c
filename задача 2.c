@@ -1,17 +1,21 @@
-#include <stdio.h> 
-#include <stdbool.h> 
+#include <stdio.h>
+#include <stdbool.h>
 
-int main() { 
-    int num; 
-    
-    printf("введите целое число: \n"); 
-    scanf("%d",&num); 
-    printf("Число = %d; ",num); 
-    
-    num= num % 2; 
-    bool honest = (num==0); 
-    
-    printf("", result);
-    
-    return 0;
+int main() {
+ int num;
+  
+ printf( "Введите целое число: \n" );
+ scanf( "%d", &num );
+ printf( "Ваше число:%d; ", num );
+  
+ int i;
+  
+ num = num % 2;
+ bool honest = ( num == 0 );
+  
+ const char* result = honest ? "Число четное" : "Число нечетное";
+  
+ printf( "%s\n", result );
+ 
+ return 0;
 }
