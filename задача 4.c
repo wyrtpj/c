@@ -1,12 +1,12 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-int main() { 
-     int x;
-    
-    printf("введите числo : \n"); 
-    scanf("%d",&x); 
-    
-    printf("%d\n", (x > 0) && (x & (x - 1)) == 0); 
-    
-    return 0;
+int main() {
+ int num;
+ 
+ printf( "введите число = " );
+ scanf( "%d", &num );
+ 
+ printf( "%d\n", (num > 0) && !( num & (num - 1) ));
+ 
+return 0;
 }
