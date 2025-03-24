@@ -9,11 +9,11 @@ int main() {
     printf("Число = %d; ",num); 
     
     num= num % 2; 
-    bool chetni = (num==0); 
+    bool honest = (num==0); 
     
-    const char * resultat=chetni ? "число четное" : " число не четное"; 
+    printf("", result)
     
-    printf("%s\n",resultat); 
+    printf("%s\n",result); 
     
     return 0;
 }
