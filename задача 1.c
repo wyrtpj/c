@@ -9,9 +9,9 @@ int main() {
    
    float farengate;
    
-   farengate = ( temperature*9.0/5.0)  + 32; // использование формулы для перевода градусов Цельсия в градусы Фаренгейта
-
+   farengate = ( temperature*9.0/5.0)  + 32; 
+   
    printf( "F=%.2f", farengate, "\n"); 
    
-    return 0; 
+   return 0; 
 }
